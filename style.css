@@ -34,12 +34,32 @@ main section {
 
 }
 
-.dogstyle {
+.dogs {
     text-align: center;
 }
 
-main section img {
-    width: 100px;
+.dog-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.dog-box {
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    width: 180px;
+}
+
+.dog-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.dog-box h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 footer {
